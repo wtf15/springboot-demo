@@ -15,6 +15,8 @@ public class User {
     @Column(nullable = false,unique = true)
     private String userName;
     @Column
+    private Integer age;
+    @Column
     private String password;
 
     public Long getId() {
@@ -39,5 +41,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }

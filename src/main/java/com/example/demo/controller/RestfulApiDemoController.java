@@ -2,7 +2,6 @@ package com.example.demo.controller;
 
 import com.example.demo.bean.User;
 import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
